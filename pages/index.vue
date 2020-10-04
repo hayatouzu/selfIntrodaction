@@ -1,31 +1,24 @@
 <template>
   <div>
-    <header class="header">
-    </header>
+    <Cheader />
+    <section id="about" class="about"></section>
 
-    <section class="about" id="about">
-    </section>
+    <section class="works"></section>
 
-    <section class="works">
-    </section>
-
-    <section class="contact" id="contact">
-    </section>
+    <section id="contact" class="contact"></section>
   </div>
 </template>
 
 <script>
-  export default {
-
-  }
+import Cheader from "@/pages/-Cheader.vue"
+export default {
+  components: {
+    Cheader,
+  },
+}
 </script>
 
 <style lang="scss" scoped>
-.header {
-  height: 100vh;
-  background-color: rgba(25, 25, 120, 0.9);
-}
-
 .about {
   height: 100vh;
   background-color: #ffffff;
