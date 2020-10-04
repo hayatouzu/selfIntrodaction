@@ -1,36 +1,26 @@
 <template>
   <div>
     <Cheader />
-    <section id="about" class="about"></section>
-
-    <section class="works"></section>
-
-    <section id="contact" class="contact"></section>
+    <Cabout />
+    <Cworks />
+    <Cskill />
   </div>
 </template>
 
 <script>
 import Cheader from "@/pages/-Cheader.vue"
+import Cabout from '@/pages/-Cabout.vue'
+import Cworks from '@/pages/-Cworks.vue'
+import Cskill from '@/pages/-Cskill.vue'
 export default {
   components: {
     Cheader,
+    Cabout,
+    Cworks,
+    Cskill
   },
 }
 </script>
 
 <style lang="scss" scoped>
-.about {
-  height: 100vh;
-  background-color: #ffffff;
-}
-
-.works {
-  height: 100vh;
-  background-color: #383634;
-}
-
-.contact {
-  height: 100vh;
-  background-color: rgba(25, 25, 120, 0.9);
-}
 </style>

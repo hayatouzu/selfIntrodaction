@@ -11,8 +11,8 @@
         Check out some of my works.
       </p>
       <div class="buttons">
-        <a class="button" href="#about">Learn MORE</a>
-        <a class="button button-orange" href="#contact">SEND MESSAGE</a>
+        <a class="button" href="#about">Profile</a>
+        <a class="button button-orange" href="#skill">My skill</a>
       </div>
     </header>
   </div>
